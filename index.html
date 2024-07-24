@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <p class="name">Account</p>
+        <div class="input-box">
+          <div class="icon-user">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-user">
+            <input type="text" placeholder="    Full Name" class="input" />
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="icon-user">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="input-user">
+            <input type="text" placeholder="    Email Address" class="input" />
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="icon-user">
+            <i class="fa-solid fa-key"></i>
+          </div>
+          <div class="input-user">
+            <input type="text" placeholder="   Password" class="input" />
+          </div>
+        </div>
+        <div class="input-lon">
+          <div class="input-birth">
+            <p class="name">Date of Birth</p>
+            <input
+              type="text"
+              name="day"
+              maxlength="2"
+              placeholder="DD"
+              id="day"
+              class="date-input"
+            />
+            <!-- maxlength="2" CHỈ CHO NHẬP ĐC 2 KÝ TỰ VÀO TRONG ĐÓ -->
+            <input
+              type="text"
+              name="month"
+              maxlength="2"
+              placeholder="MM"
+              id="month"
+              class="date-input"
+            />
+            <input
+              type="text"
+              name="year"
+              maxlength="4"
+              placeholder="YYYY"
+              id="year"
+              class="date-input"
+            />
+          </div>
+          <div class="gender">
+            <p class="name">Gender</p>
+            <div class="gioi-tinh">
+              <button class="sex">Male</button>
+              <button class="sex-1">Female</button>
+            </div>
+          </div>
+        </div>
+        <div class="input-card">
+          <p class="name">Payment Details</p>
+          <div class="card">
+            <button class="btn-pay">
+              <i class="fa-brands fa-cc-visa"></i><strong>&#160;</strong>Credit
+              Card
+            </button>
+            <button class="btn-pay">
+              <i class="fa-brands fa-cc-paypal"></i>
+              <strong>&#160;</strong>Paypal
+            </button>
+          </div>
+          <div class="input-cardnb">
+            <div class="icon-user">
+              <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <div class="input-user">
+              <input type="text" placeholder="    Card Number" class="input" />
+            </div>
+          </div>
+          <div class="cvc">
+            <div class="input-card-cvc">
+              <div class="icon-user2">
+                <i class="fa-solid fa-user" id="icon-fa-a"></i>
+              </div>
+              <div class="input-user1">
+                <input type="text" placeholder="    Card CVC" class="input-1" />
+              </div>
+            </div>
+
+            <select class="custom-select" id="option" name="option">
+              <option value="option">01 Jan</option>
+              <option value="option">02 Feb</option>
+              <option value="option">03 Mar</option>
+              <option value="option">04 Apr</option>
+            </select>
+            <select class="custom-select" id="option" name="option">
+              <option value="option">2015</option>
+              <option value="option">2016</option>
+              <option value="option">2017</option>
+              <option value="option">2018</option>
+              <option value="option">2019</option>
+              <option value="option">2020</option>
+              <option value="option">2021</option>
+              <option value="option">2022</option>
+              <option value="option">2023</option>
+              <option value="option">2024</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

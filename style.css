@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.container {
+  width: 35%;
+  height: 50%;
+  /* padding-left: 85px;
+  padding-top: 50px; */
+  padding: 30px;
+  border: 1px black solid;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7fd323;
+}
+
+.input-box {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #efefef;
+}
+
+.icon-user {
+  width: 10%;
+  height: 100%;
+}
+
+.input-1 {
+  width: 150px;
+  margin-left: 26px;
+  border: 0;
+  border-color: transparent;
+  align-content: center;
+  font-size: 16px;
+  outline: none;
+  background-color: #efefef;
+  border-left: 2px solid gray;
+}
+
+.icon-user2 {
+  width: 10%;
+  height: 100%;
+}
+
+.icon-user .fa-solid {
+  font-size: 20px;
+  padding: 26% 43%;
+}
+
+#icon-fa-a {
+  font-size: 20px;
+  padding: 60% 90%;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-color: transparent;
+  align-content: center;
+  font-size: 16px;
+  outline: none;
+  background-color: #efefef;
+  border-left: 2px solid gray;
+}
+
+.input-user {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+
+.input-user1 {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+
+.input-birth .gender {
+  margin-top: 30px;
+}
+
+.input-lon {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.date-input {
+  width: 70px;
+  padding: 10px;
+  margin: 15px 1px 0px 0px;
+  text-align: left;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.gioi-tinh {
+  display: flex;
+  gap: 0;
+}
+
+.sex {
+  width: 120px;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 3px 0 0 3px;
+  font-size: 16px;
+  color: #b6b6b6;
+}
+
+.sex-1 {
+  width: 120px;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 0 3px 3px 0;
+  font-size: 16px;
+  color: #b6b6b6;
+}
+
+.sex:hover {
+  background-color: #7fd323;
+}
+
+.input-card {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  gap: 0;
+  width: 100%;
+}
+
+.btn-pay {
+  height: 50px;
+  width: 100%;
+  border: 1px solid gray;
+  display: flex; /* Đảm bảo rằng nội dung bên trong được căn chỉnh đúng */
+  align-items: center;
+  justify-content: center;
+  color: #b6b6b6;
+}
+
+.fa-brands {
+  color: #b6b6b6;
+}
+
+.btn-pay:hover {
+  background-color: #7fd323;
+  color: white;
+}
+
+.btn-pay:hover .fa-brands {
+  color: white;
+}
+
+.input-cardnb {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #efefef;
+}
+
+.input-card-cvc {
+  display: flex;
+  width: 47%;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #efefef;
+}
+
+#icon-fa {
+  font-size: 20px;
+  padding: 36% 39%;
+}
+
+.cvc {
+  display: flex;
+  gap: 17px;
+}
+
+#option {
+  margin-top: 20px;
+  width: 24%;
+  background-color: #efefef;
+  border-radius: 3px;
+}
